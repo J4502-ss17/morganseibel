@@ -1,3 +1,4 @@
+/*practice*/ 
 p {
   color: #302A23;
   font-family: Helvetica, Arial, sans-serif;
@@ -60,6 +61,6 @@ img {
   color: black;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.8em;
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   font-style: italic;
 }
