@@ -1,0 +1,84 @@
+/*styles go here*/
+
+/*p {
+    color: red;
+}*/
+html {
+	font-size: 100%;
+}
+
+p {
+	color: black;
+	font-family: 'Lora', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem; /*this is like leading*/
+}
+
+.italic {
+	font-style: italic;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+		font-weight:800;
+		font-size: 2.25rem;
+}
+h2 {
+    font-family: 'Muli', sans-serif;
+		font-weight: 600;
+		font-size: 1.8rem;
+}
+
+body{
+	background-color:#EDEAFF;
+}
+
+#container{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+#nav a:link, a:visited {
+	display:block;
+    color: black;
+    background-color: #D0B9FF;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+		font-family: 'Muli', sans-serif;
+		font-weight: 600;
+}
+
+#nav a:hover, a:active {
+    background-color: #7a991a;
+}
+
+.caption {
+    color: black;
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: right;
+}
+
+#footer {
+    color: black;
+		font-family: 'Lora', sans-serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+		font-style: italic;
+}
