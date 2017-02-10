@@ -13,6 +13,14 @@ html {
 body {
   background-color: #FFE3DC;
   }
+	.caption {
+	    color: black;
+	    font-family: 'Lora', "Times New Roman", serif;
+	    font-style: italic;
+	    font-size: 0.8em;
+	    margin-top: 0;
+	    text-align: left;
+	}
 
 p {
   color: black;
@@ -21,6 +29,7 @@ p {
   line-height: 1.5rem; /*this is like leading*/
   font-weight: normal;
   font-style: normal;
+	margin-top: 0;
 }
 ul {
   color: black;
@@ -54,14 +63,6 @@ h3 {
   font-style: normal;
 }
 
-.caption {
-    color: black;
-    font-family: 'Lora', "Times New Roman", serif;
-    font-style: italic;
-    font-size: 0.8em;
-    margin-top: 0;
-    text-align: left;
-}
 .italic {
 	font-style: italic;
 }
