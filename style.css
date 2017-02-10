@@ -11,8 +11,9 @@ html {
   margin-left: auto;
 }
 body {
-  background-color: #EDFFFC;
+  background-color: #FFE3DC;
   }
+
 p {
   color: black;
   font-family: 'Lora', "Times New Roman", sans-serif;
@@ -21,30 +22,50 @@ p {
   font-weight: normal;
   font-style: normal;
 }
-h1 {
-  color: #71127A;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  text-align: center;;
-  font-size: 36px;
+ul {
+  color: black;
+  font-family: 'Lora', "Times New Roman", sans-serif;
+  font-size: 1rem;
+  line-height: 2rem; /*this is like leading*/
+  font-weight: normal;
   font-style: normal;
 }
+h1 {
+  font-family: 'Muli', Helvetica, sans-serif;
+  font-weight:800;
+  font-size: 2.25rem;
+  color: #C5492D;
+  text-align: center;;
+}
 h2 {
-  color: #71127A;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: 'Muli', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #C5492D;
   text-align: left;
-  font-size: 30px;
   font-style: normal;
 }
 h3 {
-  color: #71127A;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  color: #C5492D;
+  font-family: 'Muli', Helvetica, sans-serif;
+  font-weight: 400;
   text-align: left;
-  font-size: 25px;
+  font-size: 1.4rem;
   font-style: normal;
 }
+
+.caption {
+    color: black;
+    font-family: 'Lora', "Times New Roman", sans-serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: left;
+}
+.italic {
+	font-style: italic;
+}
+
 img {
   border: none;
 }
@@ -61,13 +82,13 @@ img {
 #nav a:link, #nav a:visited {
   display: block;
   text-decoration: none;
-  color: #6B3296;
-  font-weight: bold;
-  background-color: #A3E0F3;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #5E3F3A;
+  font-weight: 400;
+  background-color: #FF6651;
+  font-family: 'Muli', Helvetica, sans-serif;
   text-align: center;
   padding: 6px;
 }
 #nav a:hover, a:active {
-    background-color: #823DB8;
+    background-color: #C5492D;
 }
