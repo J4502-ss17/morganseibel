@@ -1,4 +1,8 @@
 /*for index styled assign*/
+html {
+	font-size: 100%;
+}
+
 #container {
   width: 85%;
   margin-top: 0;
@@ -10,10 +14,11 @@ body {
   background-color: #EDFFFC;
   }
 p {
-  color: #302A23;
-  font-family: Georgia, "Times New Roman", serif;
+  color: black;
+  font-family: 'Lora', "Times New Roman", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem; /*this is like leading*/
   font-weight: normal;
-  font-size: 16px;
   font-style: normal;
 }
 h1 {
