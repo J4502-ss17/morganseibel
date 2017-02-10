@@ -16,7 +16,7 @@ body {
 
 p {
   color: black;
-  font-family: 'Lora', "Times New Roman", sans-serif;
+  font-family: 'Lora', "Times New Roman", serif;
   font-size: 1rem;
   line-height: 1.5rem; /*this is like leading*/
   font-weight: normal;
@@ -24,7 +24,7 @@ p {
 }
 ul {
   color: black;
-  font-family: 'Lora', "Times New Roman", sans-serif;
+  font-family: 'Lora', "Times New Roman", serif;
   font-size: 1rem;
   line-height: 2rem; /*this is like leading*/
   font-weight: normal;
@@ -56,7 +56,7 @@ h3 {
 
 .caption {
     color: black;
-    font-family: 'Lora', "Times New Roman", sans-serif;
+    font-family: 'Lora', "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -76,7 +76,7 @@ img {
 #nav li {
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #EDFFFC;
+  border-bottom: 1px solid #FFE3DC;
 }
 
 #nav a:link, #nav a:visited {
@@ -91,4 +91,21 @@ img {
 }
 #nav a:hover, a:active {
     background-color: #C5492D;
+}
+
+a {
+  color: #5E3F3A;
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover, a:active {
+  color: #C5492D;
+}
+
+#footer {
+    color: #5E3F3A;
+		font-family: 'Lora', "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+		font-style: italic;
 }
