@@ -1,7 +1,7 @@
-p {
+/* p {
   color: #666666;
   font-family: Helvetica, Arial, sans-serif;
-}
+} */
 
 h1{
   font-family: Georgia, "Times New Roman", serif;
@@ -12,7 +12,7 @@ body{
 }
 
 #container{
-  width: 95%;
+  width: 90%;
   background-color:#ffffff;
   margin: 0 auto;
 }
@@ -26,9 +26,14 @@ body{
   text-align:right;
 }
 
+body {
+  margin: 0; /* change margin of body to fix stuff from not extending to edges of container or whatever */
+}
+
 #nav {
     padding: 0;
 	list-style-type: none;
+  width: 100vw;
 }
 
 #nav li {
@@ -55,4 +60,11 @@ body{
 
 img {
   border-style: none;
+  width:105vw; /* used this to extend img to the right side */ 
 }
+.fullwidth {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100vw;
+} /* how to make an image extend to both sides (left side is one that won't do it with margin) */
