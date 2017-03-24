@@ -72,6 +72,8 @@ img {
 #nav {
   padding: 0;
   list-style-type: none;
+	display: flex;
+flex-flow: column;
 }
 #nav li {
   margin: 0;
@@ -109,3 +111,18 @@ a:hover, a:active {
     border-top: 1px solid black;
 		font-style: italic;
 }
+
+@media (min-width:800px) {
+
+    #nav {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    #nav a {
+        border: none;
+    }
+
+    #nav a:hover {
+    	background: black;
+    }
