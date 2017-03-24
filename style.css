@@ -71,14 +71,19 @@ img {
 }
 #nav {
   padding: 0;
+	margin: 0;
   list-style-type: none;
 	display: flex;
 flex-flow: column;
+background: #FF6651;
+border-bottom: 1px solid #FFE3DC;
+
 }
 #nav li {
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #FFE3DC;
+	border-right: 1px solid #FFE3DC;
+		border-bottom: 1px solid #FFE3DC;
 }
 
 #nav a:link, #nav a:visited {
@@ -117,7 +122,11 @@ a:hover, a:active {
     #nav {
         flex-flow: row wrap;
         justify-content: flex-end;
+				border-bottom: 0px;
     }
+		#nav li {
+			border-bottom: 0px;
+		}
 
     #nav a {
         border: none;
