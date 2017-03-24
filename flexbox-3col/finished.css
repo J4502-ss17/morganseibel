@@ -102,15 +102,15 @@ header, article, aside, footer {
 	}
 
     .aside-1 {
-        order: 1;
+        order: 3;
     }
 
     article {
-        order: 2;
+        order: 1;
     }
 
     .aside-2 {
-        order: 3;
+        order: 2;
     }
 
     footer {
