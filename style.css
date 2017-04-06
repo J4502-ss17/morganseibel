@@ -29,6 +29,8 @@ p {
   line-height: 1.5rem; /*this is like leading*/
   font-weight: normal;
   font-style: normal;
+	max-width: 45em; /*so text doesn't span across whole browser */
+
 }
 ul {
   color: black;
@@ -125,6 +127,28 @@ header, article, aside, footer {
   flex: 1 100%;
   padding: 10px;
 }
+
+#hiding {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+	h2 {
+		text-align: center;
+
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+
 @media (min-width:800px) {
 
     #nav {
@@ -175,5 +199,14 @@ header, article, aside, footer {
 
 		.first {
 				margin-top: 0;
+		}
+
+		#hiding {
+			display: block;
+		}
+
+		h2 {
+			text-align: left;
+
 		}
 	}
