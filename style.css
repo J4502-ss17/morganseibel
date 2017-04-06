@@ -132,7 +132,7 @@ header, article, aside, footer {
 	display: none;
 }
 
-@media screen and (min-width: 600px) { /*first shift in appearence*/
+@media (min-width: 600px) { /*first shift in appearence*/
 
 	h2 {
 		text-align: center;
