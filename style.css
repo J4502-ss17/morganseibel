@@ -132,7 +132,7 @@ header, article, aside, footer {
 	display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) { /*first shift in appearence*/
 
 	h2 {
 		text-align: center;
@@ -147,9 +147,7 @@ header, article, aside, footer {
 
 }
 
-
-
-@media (min-width:800px) {
+@media (min-width:800px) { /*second shift in appearence*/
 
     #nav {
         flex-flow: row wrap;
