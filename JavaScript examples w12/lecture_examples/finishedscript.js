@@ -56,7 +56,7 @@ var y2k = new Date(2000, 0, 1);
 
 var myDate = new Date(1955, 1, 24);
 console.log( "Steve Jobs was born on: ", myDate.getDay() );
-
+/*group of js */
 var d = new Date();
 var weekday = new Array(7);
 weekday[0]=  "Sunday";
@@ -71,6 +71,7 @@ var n = weekday[d.getDay()];
 
 var myDate = new Date(1955, 1, 24);
 console.log( "Steve Jobs was born on: ", n );
+/*end*/
 
 var player1 = {name:"Fred", score: 10000, rank:1 };
 var player2 = {name:"Sam", score: 8000, rank:5 };
