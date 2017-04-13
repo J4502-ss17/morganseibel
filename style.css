@@ -137,7 +137,6 @@ nav ul li {
 }
 
 nav a {
-    color: #f8ecc2;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
@@ -146,7 +145,6 @@ nav a {
 header {
     display: flex;
     flex-flow: row;
-    background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
 }
