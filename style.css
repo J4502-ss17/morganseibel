@@ -131,39 +131,6 @@ header, article, aside, footer {
 #hiding {
 	display: none;
 }
-nav ul li {
-  display: block;
-}
-nav a {
-  color: #f8ECC2;
-  display: block;
-  text-decoration: none;
-  padding: 20px 30px;
-}
-
-header {
-  display: flex;
-  flex-flow: row;
-  background-color: #65A8A6;
-  margin: 0;
-  padding: 0 10px;
-}
-/* mobile nav menu */
-.menu-trigger {
-  order: 1;
-margin-top: 7px; /*did this just to move icon down a little to center it */
-background-color: white;
- }
-
-header h1 { /* want to just change the h1 part of the header */
-  order: 2;
-  font-size: 2em;
-}
-
-nav ul {
-  display: none;
-}
-
 
 @media (min-width: 600px) { /*first shift in appearence*/
 
@@ -177,26 +144,6 @@ nav ul {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	nav ul {
-    display: flex;
-  }
-
-nav ul li {
-  border-top: none;
-}
-
-header h1 {
-  order: 1;
-}
-
-nav {
-  order: 2;
-}
-
-.menu-trigger {
-  display: none;
-}
 
 }
 
