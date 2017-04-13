@@ -75,7 +75,7 @@ img {
   padding: 0;
 	margin: 0;
   list-style-type: none;
-	display: flex;
+	/*display: flex; /*hey*/
 flex-flow: column;
 background: #FF6651;
 border-bottom: 1px solid #FFE3DC;
