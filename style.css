@@ -134,11 +134,9 @@ header, article, aside, footer {
 /*js manu */
 nav ul li {
     display: block;
-    border-top: 1px #79896d solid;
 }
 
 nav a {
-    color: #f8ecc2;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
@@ -147,7 +145,6 @@ nav a {
 header {
     display: flex;
     flex-flow: row;
-    background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
 }
@@ -183,7 +180,7 @@ nav ul {
 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) { /*menu*/
 
   nav ul {
     display: flex;
